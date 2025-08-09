@@ -8,7 +8,7 @@
   `User(){};`
 - конструктор с параметрами для создания нового пользователя:
   `User(std::string name, std::string login, std::string pass): _name(name), _login(login), _pass(pass){}`
-Дружественные функции:
+##### Дружественные функции:
 - `friend std::fstream& operator >> (std::fstream& is, User& obj);`
 - `friend std::ostream& operator << (std::ostream& os, const User& obj);`
 ## Класс Message:
@@ -21,7 +21,7 @@
   `Message(){};`
 - конструктор с параметрами
   `Message(std::string text, std::string sender, std::string receiver): _text(text), _sender(sender), _receiver(receiver){}`
-Дружественные функции:
+##### Дружественные функции:
 - `friend std::fstream& operator >> (std::fstream& is, Message& obj);`
 - `friend std::ostream& operator << (std::ostream& os, const Message& obj);`
 ## Функции Functions:
