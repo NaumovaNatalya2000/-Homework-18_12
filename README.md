@@ -25,5 +25,4 @@
 - `friend std::fstream& operator >> (std::fstream& is, Message& obj);`
 - `friend std::ostream& operator << (std::ostream& os, const Message& obj);`
 ## Функции Functions:
-В данном файле находится две функции:
 - `std::fstream open_file(const fs::path& path, bool& file_is_new);` - функция открытия файла
